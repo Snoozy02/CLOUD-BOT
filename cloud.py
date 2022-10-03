@@ -32,7 +32,7 @@ async def on_ready():
     print(f"{bot.user.name} is online.")
     print(f"Python Version: {platform.python_version()}")
     print(f"Run on: {platform.system()} {platform.release()} ({os.name})")
-    print(f"Developer: Dodi")
+    print(f"Developer: Snoozy")
     print(f"=======================")
     status_task.start()
     global startTime
@@ -204,7 +204,7 @@ async def triggered(ctx):
                     color=0x101412,
                 )
             embed.set_image(url="attachment://triggered.gif")
-            embed.set_footer(text=f"CLOUD by JustinNotBieber")
+            embed.set_footer(text=f"CLOUD by JustinNotBieber- beta")
             embed.timestamp = datetime.datetime.utcnow()
             await ctx.reply(embed=embed, file=triggered_file)
            
@@ -217,7 +217,7 @@ async def triggered(ctx):
                     embed = discord.Embed( color=0x101412,
                                          )
                     embed.set_image(url=res["message"])
-                    embed.set_footer(text=f"CLOUD by JustinNotBieber")
+                    embed.set_footer(text=f"CLOUD by JustinNotBieber- beta")
                     embed.timestamp = datetime.datetime.utcnow()
                     await ctx.reply(embed=embed)
 
