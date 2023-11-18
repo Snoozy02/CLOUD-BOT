@@ -241,7 +241,7 @@ async def injura(ctx, random):
     # --------------- CUSTOM--COMMANDS------------------ #
 @bot.command()
 async def zoran1(ctx):
-    embed=discord.Embed(title="Zoran", description="Cateodata ma pis in apa de la baie si o beau-Zoran", color=0xfb0404)
+    embed=discord.Embed(title="Zoran", description="TEST TEST", color=0xfb0404)
     embed.set_author(name="CLOUD")
     embed.set_footer(text="CLOUD by JustinNotBieber- beta")
     embed.set_image(url="https://cdn.discordapp.com/attachments/899222297045520384/1014850769134034984/Screenshot_1.png")
@@ -250,7 +250,7 @@ async def zoran1(ctx):
 
 @bot.command()
 async def zoran2(ctx):
-     embed=discord.Embed(title="Zoran", description="Eu l as fute in cur pe joker-Zoran", color=0xfb0404)
+     embed=discord.Embed(title="Zoran", description="TEST TEST", color=0xfb0404)
      embed.set_author(name="CLOUD")
      embed.set_footer(text="CLOUD by JustinNotBieber- beta")
      embed.set_image(url="https://cdn.discordapp.com/attachments/899222297045520384/1014850769134034984/Screenshot_1.png")
