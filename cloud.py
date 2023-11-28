@@ -245,7 +245,7 @@ async def zoran1(ctx):
     embed.set_image(url="https://cdn.discordapp.com/attachments/899222297045520384/1014850769134034984/Screenshot_1.png")
     embed.timestamp = datetime.datetime.utcnow()
     await ctx.send(embed=embed)
-
+'''
 @bot.command()
 async def zoran2(ctx):
      embed=discord.Embed(title="Zoran", description="TEST TEST", color=0xfb0404)
@@ -254,8 +254,7 @@ async def zoran2(ctx):
      embed.set_image(url="https://cdn.discordapp.com/attachments/899222297045520384/1014850769134034984/Screenshot_1.png")
      embed.timestamp = datetime.datetime.utcnow()
      await ctx.send(embed=embed)
-
-    
+     '''
 
 
 
