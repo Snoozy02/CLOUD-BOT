@@ -233,9 +233,7 @@ async def belgia(ctx):
     # -------------- COMMANDS--INJURA ------------------- #
 @bot.command()
 async def injura(ctx, random):
-    responses = ['Bgamas gura ta',
-                'sa te fut in gura',
-                'Te rup pe genunchi bos',]
+    responses = []
     await ctx.reply(random.choice_responses)
 
     # --------------- CUSTOM--COMMANDS------------------ #
